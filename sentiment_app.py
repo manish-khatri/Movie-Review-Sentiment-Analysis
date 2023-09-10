@@ -3,8 +3,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model=joblib.load(lr_clf.pkl)
-vect=joblib.load(vectorizer.pkl)
+model=joblib.load('lr_clf.pkl')
+vect=joblib.load('vectorizer.pkl')
 contractions_dict = { "ain't": "are not","'s":" is","aren't": "are not",
                      "can't": "cannot","can't've": "cannot have",
                      "'cause": "because","could've": "could have","couldn't": "could not",
