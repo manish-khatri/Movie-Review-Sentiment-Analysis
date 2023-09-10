@@ -48,6 +48,16 @@ st.subheader(':wave: Hello, people!!')
 st.subheader("My name is Manish Khatri, and I recently made a machine learning model to classify the sentiment of a movie review for my Machine Learning project. I thought to create a web application out of it, and here it is.")
 st.write("Welcome to the Movie Review Sentiment Analysis App. You have to enter a movie review, and the app will predict its sentiment and display whether you liked the movie or not.")
 st.markdown("---")
+st.write('''
+### Here are some sample reviews, you can copy paste them.
+**Pathaan**
+I went in to see "pathaan" because of positive RT scores and comments which said this movie reeked of action. The reviewers just left out the part where they were supposed to say the action was unbelievable. It is worth a watch if you have 2.5 hours to kill.
+The fight choreography between SRK and 'Jim' (I'm too tired to look up the actor's name) were exceptional. Those featuring Padukone were kind of hit and miss. Sometime they reached Marvel's Black Widow heights, other times they were almost laughable.
+Jim was a good villain. His backstory was touching and you could empathize with him and the reasons that he was doing what he was doing. I couldn't root for him because you already know how the story is going to end but you just don't know how they will get there.
+Finally, the soundtrack (or background music). It was repetitive when there was a fight between the protagonist and antagonist. So much so that I found it irritating after a while.
+
+**Oppenheimer**
+I'm still collecting my thoughts after experiencing this film, Cillian Murphy might as well start clearing a space on his mantle for the Best Actor Oscar. This film is a masterclass in weaving narratives and different time periods while exploring the profound depths of a man whose actions altered the world's trajectory forever, for better or worse. Nolan brings us into the complexities of Oppenheimer, and all the moral conflicts stirring within him. Murphy's portrayal is so riveting that the long run-time became an afterthought. Robert Downey Jr also offers a great performance and Nolan's push and pull with how he uses sound design throughout is the cherry on top. Some viewers might need a brief refresher on WWII and Cold War history, but any film lover should be happy to willingly lose themselves in this film for hours on end.''')
 user_input = st.text_area("Enter your movie review:")
 
 if st.button("Predict Sentiment"):
