@@ -86,7 +86,7 @@ if st.button("Predict Sentiment"):
             st.write("<span style='font-size: 24px;'>You liked the movie</span>", unsafe_allow_html=True)
         else:
             st.title(':disappointed:')
-            st.write("<span style='font-size: 24px;'>you didn't liked the movie</span>", unsafe_allow_html=True)
+            st.write("<span style='font-size: 24px;'>you didn't like the movie</span>", unsafe_allow_html=True)
         
         st.title("Sentiment Analysis Result")
         st.markdown("---")
