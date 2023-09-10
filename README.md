@@ -3,4 +3,4 @@ I did a machine learning project on sentiment analysis of the movie review. I tr
 I used the streamlit library to create the web application.
 
 link for web app
-https://movie-review-sentiment-analysis-jcctufweay5wdafiwlp8eo.streamlit.app/
+https://movie-review-sentiment-analysis-iclwzhnd8ucxsxrjhvwkuc.streamlit.app
